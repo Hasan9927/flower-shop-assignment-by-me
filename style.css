@@ -26,6 +26,10 @@ body {
 }
 .logo img {
   width: 100px;
+  margin-left: 90px;
+}
+ul {
+  margin-right: 90px;
 }
 
 .nav-links li {
@@ -138,7 +142,7 @@ body {
   margin-right: 40px;
 }
 .right-flower {
-  width: 25.45%;
+  width: 387px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
   margin-right: 40px;
@@ -215,8 +219,90 @@ span {
   margin-right: 40px;
 }
 .bonus-main img {
-  width: 20%;
+  width: 300px;
+
   margin-left: 40px;
 }
+.instagram-section {
+  padding-top: 100px;
+  padding-right: auto;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.instagram-section img {
+  width: 300px;
+  margin: 10px;
+}
 
-
+h3 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.insta-p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.latest-deals {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  border-radius: 8px;
+  margin-bottom: 100px;
+}
+.latest-deals img {
+  width: 100%;
+  position: relative;
+}
+.latest-deals .overlay {
+  position: absolute;
+}
+.letest-h2 {
+  color: #272727;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0;
+}
+.latest-p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+.email {
+  border: none;
+  width: 500px;
+  height: 45px;
+  padding-left: 20px;
+  border-radius: 4px;
+  background: #fff;
+  color: #e55473;
+}
+.sub-btn {
+  margin-left: 10px;
+  padding: 13.4px 25px;
+  border: none;
+  border-radius: 4px;
+  background: #e55473;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
