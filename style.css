@@ -306,3 +306,90 @@ h3 {
   font-size: 16px;
   font-weight: 700;
 }
+
+.review-card {
+  text-align: center;
+  background-color: #e5547334;
+  font-size: 25px;
+  margin: 20px 120px;
+  padding: 10px;
+}
+
+.review {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 110px;
+}
+.card {
+  background-color: white;
+  padding: 1.25rem 1.5625rem;
+  border-radius: 0.25rem;
+  margin-top: 1.25rem;
+  width: 21.875rem;
+  height: 12.5rem;
+  box-shadow: 0.625rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.039),
+    -0.25rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.148);
+
+  box-shadow: 0.625rem 0.3125rem 0.3125rem #e554731a,
+    -0.25rem 0.3125rem 0.3125rem #e554731a;
+}
+.card > img {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.cards-pera {
+  font-size: 0.81rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  color: hsl(238, 22%, 44%);
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.img-section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.avatar {
+  width: 1.825rem;
+  height: 1.825rem;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.name {
+  font-size: 12px;
+  margin: 0;
+  color: hsl(243, 87%, 12%);
+  text-align: left;
+}
+.founder {
+  font-size: 12px;
+  color: gray;
+}
+
+footer {
+  text-align: center;
+  background-color: #111010;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 150px;
+}
+.footer-p {
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+
+.all-right {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  font-weight: 400;
+}
