@@ -138,3 +138,50 @@ body {
 .lebel3 {
   margin-right: 100px;
 }
+.bonus-main {
+  margin-top: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background: rgba(229, 84, 115, 0.05);
+}
+h2 {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+span {
+  color: #e55473;
+}
+.bonus-p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.bonus-btn {
+  width: 155px;
+  border: none;
+  margin-top: 30px;
+  padding: 15px 35px;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+.bonus-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+.bonus-main img {
+  width: 20%;
+  margin-left: 40px;
+}
